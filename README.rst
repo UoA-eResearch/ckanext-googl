@@ -8,7 +8,7 @@ ckanext-googl
 
 This extension provides an interface to `goo.gl
 <https://goo.gl/>`_ for `ckanext-external_id
-<https://github.com/neon-ninja/ckan>`_.
+<https://github.com/neon-ninja/ckanext-external_id>`_.
 
 
 ------------
