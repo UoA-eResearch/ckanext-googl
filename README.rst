@@ -1,33 +1,3 @@
-.. You should enable this project on travis-ci.org and coveralls.io to make
-   these badges work. The necessary Travis and Coverage config files have been
-   generated for you.
-
-.. image:: https://travis-ci.org/neon-ninja/ckanext-googl.svg?branch=master
-    :target: https://travis-ci.org/neon-ninja/ckanext-googl
-
-.. image:: https://coveralls.io/repos/neon-ninja/ckanext-googl/badge.svg
-  :target: https://coveralls.io/r/neon-ninja/ckanext-googl
-
-.. image:: https://pypip.in/download/ckanext-googl/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-googl/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-googl/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-googl/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-googl/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-googl/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-googl/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-googl/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-googl/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-googl/
-    :alt: License
-
 =============
 ckanext-googl
 =============
