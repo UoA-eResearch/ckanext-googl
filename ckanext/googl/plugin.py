@@ -16,7 +16,7 @@ class GooglPlugin(plugins.SingletonPlugin):
     def get_external_id(self, context):
         ckan_url = context['package'].as_dict()['ckan_url']
         log.info('shortening %s' % ckan_url)
-        key = config.get('ckan.googl_api_key')
+        key = config.get('ckanext.googl.api_key')
         api_url = 'https://www.googleapis.com/urlshortener/v1/url?key=%s' % key
         r = requests.post(api_url,
                           json = {'longUrl': ckan_url},
