@@ -21,7 +21,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/neon-ninja/ckanext-googl',
+    url='https://github.com/UoA-eResearch/ckanext-googl',
 
     # Author details
     author='''Nick Young''',

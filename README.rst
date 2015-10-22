@@ -8,7 +8,7 @@ ckanext-googl
 
 This extension provides an interface to `goo.gl
 <https://goo.gl/>`_ for `ckanext-external_id
-<https://github.com/neon-ninja/ckanext-external_id>`_.
+<https://github.com/UoA-eResearch/ckanext-external_id>`_.
 
 
 ------------
@@ -28,7 +28,7 @@ To install ckanext-googl:
 2. Install the ckanext-googl Python package into your virtual environment::
 
      cd src
-     git clone https://github.com/neon-ninja/ckanext-googl.git
+     git clone https://github.com/UoA-eResearch/ckanext-googl.git
      cd ckanext-googl
      python setup.py develop
      
