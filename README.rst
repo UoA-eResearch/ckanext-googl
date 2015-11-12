@@ -1,3 +1,11 @@
+.. image:: https://travis-ci.org/UoA-eResearch/ckanext-googl.svg?branch=master
+  :target: https://travis-ci.org/UoA-eResearch/ckanext-googl
+
+
+.. image:: https://coveralls.io/repos/UoA-eResearch/ckanext-googl/badge.svg?branch=master&service=github
+  :target: https://coveralls.io/github/UoA-eResearch/ckanext-googl?branch=master
+
+
 =============
 ckanext-googl
 =============
