@@ -27,6 +27,11 @@ cd ckan
 paster db init -c test-core.ini
 cd -
 
+git clone https://github.com/UoA-eResearch/ckanext-external_id.git
+cd ckanext-external_id
+python setup.py develop
+cd -
+
 echo "Installing ckanext-ckanext-googl and its requirements..."
 python setup.py develop
 pip install -r dev-requirements.txt
