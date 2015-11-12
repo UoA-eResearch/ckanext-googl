@@ -10,7 +10,6 @@ from ckanext.external_id.interfaces import IExternalIDProvider
 log = logging.getLogger(__name__)
 
 class GooglPlugin(plugins.SingletonPlugin):
-    plugins.implements(plugins.IConfigurer)
     plugins.implements(IExternalIDProvider)
 
     def get_external_id(self, context):
@@ -26,8 +25,3 @@ class GooglPlugin(plugins.SingletonPlugin):
 
     def get_pretty_name(self):
         return "goo.gl"
-
-    def update_config(self, config_):
-        toolkit.add_template_directory(config_, 'templates')
-        toolkit.add_public_directory(config_, 'public')
-        toolkit.add_resource('fanstatic', 'googl')

@@ -17,3 +17,4 @@ def test_plugin():
     instance = plugin.GooglPlugin()
     external_id = instance.get_external_id(context)
     assert 'https://goo.gl/' in external_id
+    assert instance.get_pretty_name() == 'goo.gl'
