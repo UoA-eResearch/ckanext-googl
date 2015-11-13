@@ -44,7 +44,7 @@ To install ckanext-googl:
    config file (by default the config file is located at
    ``/etc/ckan/default/production.ini``).
 
-4. Set your goo.gl API key with the key ckan.googl_api_key in your CKAN config
+4. Set your goo.gl API key with the key ckan.googl.api_key in your CKAN config
    file
 
 5. Restart CKAN. For example if you've deployed CKAN with Apache on Ubuntu::
